@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 10vh;
+    background: #fff;
+    display: flex;
+    position: fixed;
+}
+div{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    width: 80%;
+    height: 100%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #EEEEEE
+}
+ul li{
+    list-style-type: none;
+}
+
+ul li:hover{
+    color: black;
+}
+
+ul button{
+    font-size: 14px;
+    color: #ebebeb;
+    background: var(--color-primary);
+    padding: 8px 20px;
+    margin-left: 30px;
+    border-radius: 50px;
+    background-color: #ec0e0e;
+}
+.text{
+    width: 50%;
+    height: 50%;
+    color: var(--color-secondary);
+}
+.text h2{
+    font-size: 44px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: var(--color-secondary);
+    font-family: var(--font-primary);
+}
+.text button{
+    font-size: 14px;
+    color: #ebebeb;
+    background: var(--color-primary);
+    padding: 8px 20px;
+    margin-left: 30px;
+    border-radius: 50px;
+    background-color: #ec0e0e;
+}
+.hero-sectiooon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right{
+    width: 150%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
